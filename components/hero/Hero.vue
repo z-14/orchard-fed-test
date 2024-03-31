@@ -1,15 +1,15 @@
 <template>
     <div class=" grid grid-cols-1 sm:grid-cols-1   md:grid-cols-3 ls:grid-cols-4 gap-5 p-10">
 <div class=" w-full duration-300 ease-in-out transform hover:scale-105 cursor-pointer">
-  <NuxtImg  @click="openModal(product.image[0])"  fit="cover" :src="product.image[0]" :placeholder="[50, 75]" class="h-full w-full object-cover "  />
+  <NuxtImg  alt="Exploring the countryside with family - highlighting AEG's commitment to a healthy lifestyle"  @click="openModal(product.image[0])"  fit="cover" :src="product.image[0]" :placeholder="[50, 75]" class="h-full w-full object-cover "  />
 </div>
 <div class="grid grid-row-2 sm:grid-cols-1">
   <div class="grid grid-rows-2 gap-y-5">
   <div  class="row-span-1 duration-300 ease-in-out transform hover:scale-105 cursor-pointer">
-    <NuxtImg @click="openModal(product.image[1])" fit="cover"  :src="product.image[1]" :placeholder="[50, 25]" class="h-full w-full object-cover"  />
+    <NuxtImg alt="A variety of fresh organic ingredients for healthy cooking at home with AEG appliances." @click="openModal(product.image[1])" fit="cover"  :src="product.image[1]" :placeholder="[50, 25]" class="h-full w-full object-cover"  />
   </div>
   <div  class="row-span-1 duration-300 ease-in-out transform hover:scale-105 cursor-pointer">
-    <NuxtImg @click="openModal(product.image[2])" fit="cover" :src="product.image[2]" :placeholder="[50, 25]" class="h-full w-full object-cover"  />
+    <NuxtImg alt="A variety of fresh organic ingredients for healthy cooking at home with AEG appliances." @click="openModal(product.image[2])" fit="cover" :src="product.image[2]" :placeholder="[50, 25]" class="h-full w-full object-cover"  />
   </div>
 </div>
 </div>
