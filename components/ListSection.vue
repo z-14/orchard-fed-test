@@ -1,5 +1,5 @@
 <template>
-    <div class="sm:p-5 flex justify-center items-center">
+    <div class="sm:p-5 flex justify-center items-center sm:mb-5">
       <div class="items-center">
         <h2 class="w-full p-10 text-5xl font-sans font-light uppercase text-center">All the Latest from AEG</h2>
         <div class="max-w-[1280px]">
