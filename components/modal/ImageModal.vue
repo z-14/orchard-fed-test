@@ -1,6 +1,6 @@
 <template>
     <transition name="fade">
-      <div v-if="show" class="fixed inset-0 z-50 overflow-auto bg-smoke-light flex" @click.self="$emit('close')">
+      <div v-if="show" class="fixed inset-0 z-50 overflow-auto bg-smoke-light flex p-8" @click.self="$emit('close')">
         <div class="relative p-8 bg-white w-full max-w-md m-auto flex-col flex rounded-lg">
           <!-- Close button (X) on the top right -->
           <div class="absolute top-0 right-0 pt-4 pr-4">

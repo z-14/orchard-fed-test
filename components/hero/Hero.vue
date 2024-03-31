@@ -18,7 +18,7 @@
 
 <div class=" flex flex-col justify-between leading-normal">
  <div class="mb-8 font-sans">
-   <h1 class="title font-light text-slate-200 text-[28px] mb-6 pb-3 text-ellipsis overflow-hidden border-b border-gray-400 uppercase line-clamp-1  ">{{ product.title }}</h1>
+   <h1 class="title font-light text-slate-200 md:text-[14px] lg:text-[28px] sm:text-[14px] mb-6 pb-3 text-ellipsis overflow-hidden border-b border-gray-400 uppercase line-clamp-1  ">{{ product.title }}</h1>
    <p class="font-light text-slate-300 sm:text-[12px] md:text-[14px] lg:text-[18px] hyphens-auto text-ellipsis overflow-hidden leading-relaxed line-clamp-9  "> 
     {{ product.description }}
 </p>
