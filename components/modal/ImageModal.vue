@@ -16,7 +16,7 @@
   </template>
   
   
-  <script  >
+  <script >
   import ImageModal from '../components/modal/ImageModal.vue';
 
   export default {
@@ -31,7 +31,7 @@
       }
     }
   };
-  
+
   </script>
   
   <style>
